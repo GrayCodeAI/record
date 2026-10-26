@@ -16,6 +16,6 @@ Checkpoints live under the repository's Git common directory in `record/checkpoi
 
 ## Boundary
 
-Reflect can create checkpoints after a commit and use their IDs as Recall sources. Term can display Record's JSON output. Relay has no checkpoint storage role. Record has no compile-time dependency on those products.
+Reflect can create checkpoints after a commit and use their IDs as Recall sources. Ridge can display Record's JSON output. Relay has no checkpoint storage role. Record has no compile-time dependency on those products.
 
 The first release is explicit and local: `create` is manual, and checkpoints do not sync to a Git remote. Automatic agent hooks, commit trailers, redacted transcript capture, and cross-machine sync are future work.
